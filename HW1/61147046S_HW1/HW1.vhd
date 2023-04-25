@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity HW1 is
+    port (
+        A, B, C : in std_logic_vector(3 downto 0);
+        A_min, B_min, C_min : out std_logic
+    );
+end HW1;
+
+architecture behavioral of HW1 is
+begin
+    A_min <= '1' when A < B and A < C else '0';
+    B_min <= '1' when B < A and B < C else '0';
+    C_min <= '1' when C < A and C < B else '0';
+end behavioral;

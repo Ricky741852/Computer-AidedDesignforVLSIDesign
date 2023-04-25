@@ -1,0 +1,102 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+7
+3331
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+HW1
+# storage
+db|HW2.(1).cnf
+db|HW2.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|HW1|61147046S_HW1|HW1.vhd
+f6caba2c92cf52b15a9d3f744b4a30
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(a)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(b)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(c)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+HW1:u_HW1
+}
+# lmf
+c:|altera|90sp2|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+HW2
+# storage
+db|HW2.(0).cnf
+db|HW2.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+HW2.vhd
+d8c21e12b707080726a435e5c364f9b
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+c:|altera|90sp2|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+

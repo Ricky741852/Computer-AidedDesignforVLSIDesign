@@ -1,0 +1,40 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x7607b512: KERNELBASE + 0x12b512 (RaiseException + 0x62)
+	0x66b9df5f: MSVCR90 + 0x5df5f (_CxxThrowException + 0x47)
+	0x66a437f1: mfc90 + 0x237f1
+	0x66aebead: mfc90 + 0xcbead
+	0x00684107: sys_ict + 0x4107 (ict_dyn_locate_to_web_page_based_on_url + 0x3c7)
+	0x7619181f: USER32 + 0x2181f (TranslateAccelerator + 0x5f)
+	</callstack>
+	<error>Uncaught C++ Exception</error>
+	<date>Fri Apr 07 16:03:10 2023</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>Uncaught C++ Exception
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x7607b512: KERNELBASE + 0x12b512 (RaiseException + 0x62)
+	0x66a7df5f: MSVCR90 + 0x5df5f (_CxxThrowException + 0x47)
+	0x66af37f1: mfc90 + 0x237f1
+	0x66b9bead: mfc90 + 0xcbead
+	0x0a764107: sys_ict + 0x4107 (ict_dyn_locate_to_web_page_based_on_url + 0x3c7)
+	0x7619181f: USER32 + 0x2181f (TranslateAccelerator + 0x5f)
+	</callstack>
+	<error>Uncaught C++ Exception</error>
+	<date>Fri Apr 07 16:05:09 2023</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>Uncaught C++ Exception
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
