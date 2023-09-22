@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\user\Desktop
+Eca
+Z0 w1685954973
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dD:\Semi2\VLSI\HW4\61147046S_HW4\HW4
+Z3 8D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/CA.vhd
+Z4 FD:/Semi2/VLSI/HW4/61147046S_HW4/HW4/CA.vhd
+l0
+L4
+VR5>Wif3EKPFe>B;[ViOJz2
+Z5 OV;C;6.6d;45
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 oBU>;Zd8f0`ZF?RlGke`O3
+Abehavior
+R1
+DEx4 work 2 ca 0 22 R5>Wif3EKPFe>B;[ViOJz2
+l14
+L11
+VAD:lWcC8jSoTP5AiZE<?g3
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 [mZEkhBQzSC1M0Yii_D<I1
+Erng
+Z9 w1685955029
+R1
+R2
+Z10 8D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/RNG.vhd
+Z11 FD:/Semi2/VLSI/HW4/61147046S_HW4/HW4/RNG.vhd
+l0
+L4
+V5Zg`@Y59a7<?33m78EdH03
+R5
+32
+R6
+R7
+!s100 5Ta@om^HS0lTLQ1U;V1fE2
+Astructure
+R1
+DEx4 work 3 rng 0 22 5Zg`@Y59a7<?33m78EdH03
+l22
+L11
+VdAMa^l7fjWYm>:IE>B5He0
+!s100 XB[13<[kaP23nnQ6k<Qa70
+R5
+32
+R8
+R6
+R7
+Etest_bench_3
+Z12 w1685955128
+Z13 DPx4 ieee 16 std_logic_textio 0 22 8ONYdGiICLK<GeVc1o<IF0
+R1
+Z14 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R2
+Z15 8D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/test_bench_3.vhd
+Z16 FD:/Semi2/VLSI/HW4/61147046S_HW4/HW4/test_bench_3.vhd
+l0
+L6
+Vf_>BZ@MHh2XTd[fYYLlB53
+!s100 h;ei1^QS?_EohG]oA<_Sj2
+R5
+32
+R6
+R7
+Aarch_test
+R13
+R1
+R14
+Z17 DEx4 work 12 test_bench_3 0 22 f_>BZ@MHh2XTd[fYYLlB53
+l25
+L9
+Z18 VXM@Pi`iO^;KfIY0WkNRZj1
+Z19 !s100 McEXCX1Xg`fgI5i06FDZJ1
+R5
+32
+Z20 Mx3 3 std 6 textio
+Z21 Mx2 4 ieee 14 std_logic_1164
+Z22 Mx1 4 ieee 16 std_logic_textio
+R6
+R7

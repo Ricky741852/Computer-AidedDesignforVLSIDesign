@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Counter is
+    generic (
+        MAX_COUNT : integer := 10
+    );
+    port (
+        clk     : in  std_logic;
+        reset   : in  std_logic;
+        enable  : in  std_logic;
+        complete: out std_logic;
+        count   : buffer integer range 0 to MAX_COUNT
+    );
+end entity Counter;
+
+architecture Behavioral of Counter is
+begin
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if reset = '1' then
+                count <= 0;
+                complete <= '0';
+            elsif enable = '1' then
+                count <= count + 1;
+                if count = MAX_COUNT then
+                    complete <= '1';
+                else
+                    complete <= '0';
+                end if;
+            end if;
+        end if;
+    end process;
+end architecture Behavioral;

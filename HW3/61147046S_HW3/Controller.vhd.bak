@@ -1,0 +1,92 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Controller is
+    port (
+        clk     : in  std_logic;
+        reset   : out  std_logic;
+        enable  : out  std_logic;
+        complete: in  std_logic;
+        glight  : out std_logic;
+        ylight  : out std_logic;
+        rlight  : out std_logic
+    );
+end entity Controller;
+
+architecture Behavioral of Controller is
+    type State is (green1, green2, red1, red2, yellow1, yellow2);
+    signal current_state, next_state: State;
+begin
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            current_state <= next_state;
+        end if;
+    end process;
+    
+    process(current_state, complete)
+    begin
+        case current_state is
+            when green1 =>
+                glight <= '1';
+                ylight <= '0';
+                rlight <= '0';
+                reset <= '1';
+                enable <= '0';
+                next_state <= green2;
+                
+            when green2 =>
+                glight <= '1';
+                ylight <= '0';
+                rlight <= '0';
+                reset <= '0';
+                enable <= '1';
+                if complete = '1' then
+					next_state <= yellow1;
+				end if;
+                
+            when yellow1 =>
+                glight <= '0';
+                ylight <= '1';
+                rlight <= '0';
+                reset <= '0';
+                enable <= '0';
+                next_state <= red1;
+                
+            when red1 =>
+                glight <= '0';
+                ylight <= '0';
+                rlight <= '1';
+                reset <= '1';
+                enable <= '0';
+                next_state <= red2;
+                
+            when red2 =>
+                glight <= '0';
+                ylight <= '0';
+                rlight <= '1';
+                reset <= '0';
+                enable <= '1';
+                if complete = '1' then
+					next_state <= yellow2;
+				end if;
+                
+            when yellow2 =>
+                glight <= '0';
+                ylight <= '1';
+                rlight <= '0';
+                reset <= '0';
+                enable <= '0';
+                next_state <= green1;
+                
+            when others =>
+                glight <= '0';
+                ylight <= '0';
+                rlight <= '0';
+                reset <= '0';
+                enable <= '0';
+                next_state <= green1;
+        end case;
+    end process;
+end architecture Behavioral;

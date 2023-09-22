@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, D:/Semi2/VLSI/HW4/61147046S_HW4/Optional/CA.vhd
+source_file = 1, D:/Semi2/VLSI/HW4/61147046S_HW4/Optional/RNG.vhd
+source_file = 1, D:/Semi2/VLSI/HW4/61147046S_HW4/Optional/Optional.vhd
+source_file = 1, D:/Semi2/VLSI/HW4/61147046S_HW4/Optional/db/Optional.cbx.xml
+design_name = Optional
+instance = comp, \clk~I\, clk, Optional, 1
+instance = comp, \lottery_num[0]~I\, lottery_num[0], Optional, 1
+instance = comp, \lottery_num[1]~I\, lottery_num[1], Optional, 1
+instance = comp, \lottery_num[2]~I\, lottery_num[2], Optional, 1
+instance = comp, \lottery_num[3]~I\, lottery_num[3], Optional, 1
+instance = comp, \lottery_num[4]~I\, lottery_num[4], Optional, 1

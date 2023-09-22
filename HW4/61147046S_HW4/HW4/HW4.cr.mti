@@ -1,0 +1,26 @@
+D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/RNG.vhd {1 {vcom -work work -2002 -explicit D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/RNG.vhd
+Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rng
+-- Compiling architecture structure of rng
+
+} {} {}} D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/CA.vhd {1 {vcom -work work -2002 -explicit D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/CA.vhd
+Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ca
+-- Compiling architecture behavior of ca
+
+} {} {}} D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/test_bench_3.vhd {2 {vcom -work work -2002 -explicit D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/test_bench_3.vhd
+Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+-- Loading package standard
+-- Loading package textio
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Compiling entity test_bench_3
+-- Compiling architecture arch_test of test_bench_3
+** Warning: D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/test_bench_3.vhd(35): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+** Warning: D:/Semi2/VLSI/HW4/61147046S_HW4/HW4/test_bench_3.vhd(54): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+
+} {} {}}
